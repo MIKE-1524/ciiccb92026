@@ -1,4 +1,5 @@
 package chapter1;
+import java.util.*;
 
 public class Main{
     public static void main(String[] args) {
@@ -16,6 +17,9 @@ public class Main{
         toy1.quantity = 12;
         toy1.setPrice(0);
         System.out.println();
-        
+        Random r = new Random();
+        System.out.println(r.nextInt(100));
+        ArrayList al = new ArrayList<>();
+        Date date1 = new Date();
     }
 }
